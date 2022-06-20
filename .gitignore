@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+.idea
+.env
+static
+build
+.DS_Store
+App
+Bin/www.ts
+dist
+HTTP
