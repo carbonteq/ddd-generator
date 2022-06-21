@@ -68,7 +68,7 @@ This generator leverages <a href="https://www.prisma.io/">Prisma</a>  data model
 2. Configure prisma and its schema.prisma file. Write data models in it with db datasource
 3. Install ddd-generator package
    ```sh
-   npm i ddd-generator
+   npm i @carbonteq/ddd-generator
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
