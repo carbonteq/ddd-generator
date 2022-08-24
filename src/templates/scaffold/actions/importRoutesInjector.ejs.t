@@ -4,4 +4,4 @@ inject: true
 after: component
 skip_if: <%- name %>
 ---
-<%- `import ${name} from "../Routes/Api/V1/${name}/${name}";` %>
+<%- `import ${name} from "@routes/Api/V1/${name}/${name}";` %>

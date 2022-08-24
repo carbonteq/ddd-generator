@@ -1,8 +1,8 @@
 ---
 to: App/Application/<%= name%>/Update<%= name%>DTO.ts
 ---
-import BaseDTO from "../Utils/BaseDTO";
-import <%- name -%>Entity from "../../Domain/<%- name -%>/<%- name -%>Entity";
+import BaseDTO from "@application/Utils/BaseDTO";
+import <%- name -%>Entity from "@domain/<%- name -%>/<%- name -%>Entity";
 
 class Update<%- name -%>DTO extends BaseDTO {
   public <%- name.toLowerCase() -%>: <%- name -%>Entity;

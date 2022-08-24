@@ -1,8 +1,8 @@
 ---
 to: App/Application/<%= name%>/FetchAll<%= pluralizeName%>DTO.ts
 ---
-import BaseDTO from "../Utils/BaseDTO";
-import PaginationOptions from "../../Domain/Utils/PaginationOptions";
+import BaseDTO from "@application/Utils/BaseDTO";
+import PaginationOptions from "@domain/Utils/PaginationOptions";
 
 class FetchAll<%- pluralizeName -%>DTO extends BaseDTO {
   private readonly page: number = 1;

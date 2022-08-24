@@ -1,7 +1,7 @@
 ---
 to: App/Application/Utils/BaseDTO.ts
 ---
-import BaseDTOInterface from "./BaseDTOInterface";
+import BaseDTOInterface from "@application/Utils/BaseDTOInterface";
 
 class BaseDTO implements BaseDTOInterface {
   public allowedRoles = []

@@ -2,15 +2,15 @@
 to: App/Application/<%= name%>/<%= name%>Service.ts
 ---
 import {inject, injectable} from "tsyringe";
-import {I<%- name -%>Repository} from "../../Domain/<%- name -%>/I<%- name -%>Repository";
-import AppResult from "../Utils/AppResult";
-import PaginatedData from "../../Domain/Utils/PaginatedData";
-import Create<%- name -%>DTO from "./Create<%- name -%>DTO";
-import FetchAll<%- pluralizeName -%>DTO from "./FetchAll<%- pluralizeName -%>DTO";
-import Update<%- name -%>DTO from "./Update<%- name -%>DTO";
-import Fetch<%- name -%>ByIdDTO from "./Fetch<%- name -%>ByIdDTO";
-import Remove<%- name -%>DTO from "./Remove<%- name -%>DTO";
-import <%- name -%>Entity from "../../Domain/<%- name -%>/<%- name -%>Entity";
+import {I<%- name -%>Repository} from "@domain/<%- name -%>/I<%- name -%>Repository";
+import AppResult from "@application/Utils/AppResult";
+import PaginatedData from "@domain/Utils/PaginatedData";
+import Create<%- name -%>DTO from "@application/<%- name -%>/Create<%- name -%>DTO";
+import FetchAll<%- pluralizeName -%>DTO from "@application/<%- name -%>/FetchAll<%- pluralizeName -%>DTO";
+import Update<%- name -%>DTO from "@application/<%- name -%>/Update<%- name -%>DTO";
+import Fetch<%- name -%>ByIdDTO from "@application/<%- name -%>/Fetch<%- name -%>ByIdDTO";
+import Remove<%- name -%>DTO from "@application/<%- name -%>/Remove<%- name -%>DTO";
+import <%- name -%>Entity from "@domain/<%- name -%>/<%- name -%>Entity";
 
 @injectable()
 class <%- name -%>Service {

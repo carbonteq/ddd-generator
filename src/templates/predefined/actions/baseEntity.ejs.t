@@ -2,7 +2,7 @@
 to: App/Domain/BaseEntity.ts
 ---
 import {v4 as uuidV4} from "uuid";
-import EntityInterface from "./EntityInterface";
+import EntityInterface from "@domain/EntityInterface";
 
 class BaseEntity implements EntityInterface {
   public createdAt: Date;

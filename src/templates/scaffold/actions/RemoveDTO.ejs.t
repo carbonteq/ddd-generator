@@ -1,7 +1,7 @@
 ---
 to: App/Application/<%= name%>/Remove<%= name%>DTO.ts
 ---
-import BaseDTO from "../Utils/BaseDTO";
+import BaseDTO from "@application/Utils/BaseDTO";
 
 class Remove<%- name -%>DTO extends BaseDTO {
   public <%- name.toLowerCase() -%>Id: string;

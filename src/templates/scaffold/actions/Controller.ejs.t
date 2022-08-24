@@ -2,14 +2,14 @@
 to: HTTP/Controllers/Api/V1/<%= name%>/<%= name%>.ts
 ---
 import {injectable,inject} from "tsyringe";
-import container from "../../../../../App/Infrastructure/IocContainer/container";
-import <%- name -%>Service from "../../../../../App/Application/<%- name -%>/<%- name -%>Service";
-import Create<%- name -%>DTO from "../../../../../App/Application/<%- name -%>/Create<%- name -%>DTO";
-import FetchAll<%- pluralizeName -%>DTO from "../../../../../App/Application/<%- name -%>/FetchAll<%- pluralizeName -%>DTO";
-import Update<%- name -%>DTO from "../../../../../App/Application/<%- name -%>/Update<%- name -%>DTO";
-import Fetch<%- name -%>ByIdDTO from "../../../../../App/Application/<%- name -%>/Fetch<%- name -%>ByIdDTO";
-import Remove<%- name -%>DTO from "../../../../../App/Application/<%- name -%>/Remove<%- name -%>DTO";
-import AppResultAdaptor from "../../../../../App/Infrastructure/Utils/AppResultAdaptor";
+import container from "@infrastructure/IocContainer/container";
+import <%- name -%>Service from "@application/<%- name -%>/<%- name -%>Service";
+import Create<%- name -%>DTO from "@application/<%- name -%>/Create<%- name -%>DTO";
+import FetchAll<%- pluralizeName -%>DTO from "@application/<%- name -%>/FetchAll<%- pluralizeName -%>DTO";
+import Update<%- name -%>DTO from "@application/<%- name -%>/Update<%- name -%>DTO";
+import Fetch<%- name -%>ByIdDTO from "@application/<%- name -%>/Fetch<%- name -%>ByIdDTO";
+import Remove<%- name -%>DTO from "@application/<%- name -%>/Remove<%- name -%>DTO";
+import AppResultAdaptor from "@infrastructure/Utils/AppResultAdaptor";
 
 container.resolve(<%- name -%>Service);
 
