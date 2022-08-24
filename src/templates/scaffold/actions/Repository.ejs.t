@@ -3,9 +3,9 @@ to: App/Infrastructure/MySQLRepository/<%= name%>Repository.ts
 ---
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient();
-import <%- name -%>Entity from "../../Domain/<%- name -%>/<%- name -%>Entity";
-import PaginatedData from "../../Domain/Utils/PaginatedData";
-import {I<%- name -%>Repository} from "../../Domain/<%- name -%>/I<%- name -%>Repository";
+import <%- name -%>Entity from "@domain/<%- name -%>/<%- name -%>Entity";
+import PaginatedData from "@domain/Utils/PaginatedData";
+import {I<%- name -%>Repository} from "@domain/<%- name -%>/I<%- name -%>Repository";
 import {injectable} from "tsyringe";
 
 const <%- name -%> = prisma.<%- name.toLowerCase() -%>;

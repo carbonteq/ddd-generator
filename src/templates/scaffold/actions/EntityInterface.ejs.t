@@ -1,9 +1,9 @@
 ---
 to: App/Domain/<%- name%>/I<%= name%>Repository.ts
 ---
-import <%- name%>Entity from "./<%- name%>Entity";
-import PaginationData from "../../../Infrastructure/Utils/PaginationData";
-import PaginationOptions from "../../../Infrastructure/Utils/PaginationOptions";
+import <%- name%>Entity from "@domain/<%- name -%>/<%- name%>Entity";
+import PaginationData from "@domain/Utils/PaginatedData";
+import PaginationOptions from "@domain/Utils/PaginationOptions";
 
 export interface I<%- name%>Repository {
   add<%- name%>(<%- name.toLowerCase()%>: <%- name%>Entity): Promise<void>;

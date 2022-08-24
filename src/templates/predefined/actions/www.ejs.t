@@ -4,9 +4,9 @@ to: Bin/www.ts
 import * as dotenv from "dotenv";
 
 dotenv.config();
-import config from "../App/Infrastructure/Config";
-import logger from "../App/Infrastructure/Logger/logger";
-import httpServer from "../HTTP/Bootstrap/app";
+import config from "@infrastructure/Config";
+import logger from "@infrastructure/Logger/logger";
+import httpServer from "@http/Bootstrap/app";
 
 const {server, application} = config;
 

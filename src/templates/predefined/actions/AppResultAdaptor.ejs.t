@@ -1,8 +1,8 @@
 ---
 to: App/Infrastructure/Utils/AppResultAdaptor.ts
 ---
-import AppResult from "../../Application/Utils/AppResult";
-import HttpResp from "../../Application/Utils/HttpResp";
+import AppResult from "@application/Utils/AppResult";
+import HttpResp from "@application/Utils/HttpResp";
 
 class AppResultAdaptor {
   public appResult: AppResult;

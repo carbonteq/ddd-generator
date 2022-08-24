@@ -4,7 +4,7 @@ to: App/Domain/<%- name%>/<%= name%>Entity.ts
 <% let constructorParams = ""-%>
 <% let methodParams = "" -%>
 
-import BaseEntity from "../BaseEntity";
+import BaseEntity from "@domain/BaseEntity";
 class <%- name%>Entity extends BaseEntity {
 <%for(let i=0;i<parameters.length;i++){-%>
  <% if(parameters[i].includes(':')) { -%>

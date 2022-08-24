@@ -1,8 +1,8 @@
 ---
 to: App/Application/<%= name%>/Create<%= name%>DTO.ts
 ---
-import BaseDTO from "../Utils/BaseDTO";
-import <%- name -%>Entity from "../../Domain/<%- name -%>/<%- name -%>Entity";
+import BaseDTO from "@application/Utils/BaseDTO";
+import <%- name -%>Entity from "@domain/<%- name -%>/<%- name -%>Entity";
 
 class Create<%- name -%>DTO extends BaseDTO {
   public <%- name.toLowerCase() -%>Id: string;

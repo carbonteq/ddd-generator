@@ -2,8 +2,8 @@
 to: HTTP/Routes/Api/V1/<%= name%>/<%= name%>.ts
 ---
 import * as express from "express";
-import <%- name -%>Controller from "../../../../Controllers/Api/V1/<%- name -%>/<%- name -%>";
-import container from "../../../../../App/Infrastructure/IocContainer/container";
+import <%- name -%>Controller from "@controller/Api/V1/<%- name -%>/<%- name -%>";
+import container from "@infrastructure/IocContainer/container";
 
 const <%- name.toLowerCase() -%>Controller = container.resolve(<%- name -%>Controller);
 const router = express.Router({mergeParams: true});

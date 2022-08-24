@@ -1,7 +1,7 @@
 ---
 to: App/Application/Utils/AppResult.ts
 ---
-import HttpStatusCode from "./HttpStatusCode";
+import HttpStatusCode from "@application/Utils/HttpStatusCode";
 
 class AppResult {
   readonly status: HttpStatusCode;

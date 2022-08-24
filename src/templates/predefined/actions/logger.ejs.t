@@ -2,7 +2,7 @@
 to: App/Infrastructure/Logger/logger.ts
 ---
 import pino from "pino";
-import {IAppLogger} from "../../Application/IAppLogger";
+import {IAppLogger} from "@application/IAppLogger";
 
 const pinoLogger = pino();
 

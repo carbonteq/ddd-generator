@@ -1,7 +1,7 @@
 ---
 to: App/Application/<%= name%>/Fetch<%= name%>ByIdDTO.ts
 ---
-import BaseDTO from "../Utils/BaseDTO";
+import BaseDTO from "@application/Utils/BaseDTO";
 
 class Fetch<%- name -%>ByIdDTO extends BaseDTO {
   public <%- name.toLowerCase() -%>Id: string;

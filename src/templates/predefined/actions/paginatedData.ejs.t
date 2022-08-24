@@ -1,7 +1,7 @@
 ---
 to: App/Domain/Utils/PaginatedData.ts
 ---
-import PaginationOptions from "./PaginationOptions";
+import PaginationOptions from "@domain/Utils/PaginationOptions";
 
 class PaginationData<T> {
   public paginationOptions: PaginationOptions;
